@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+</head>
+<body>
+    <img src=puta.jpg id='i1' style="position:absolute; left: 500; top: 100; width: 20px">
+    <br><br><br><br>
+    <input type=button onClick=move_img('up') value='Up'>
+    <br>
+    <input type=button onClick=move_img('left') value='Left'>
+    <input type=button onClick=move_img('right') value='right'>
+    <br>
+    <input type=button onClick=move_img('down') value='down'>
+   
+
+    <script language='JavaScript' type='text/JavaScript'>
+        <!--
+        function move_img(str) {
+        var step=50; // change this to different step value
+        switch(str){
+        case "down":
+        var x=document.getElementById('i1').offsetTop;
+        x= x + step;
+        document.getElementById('i1').style.top= x + "px";
+        break;
+        
+        case "up":
+        var x=document.getElementById('i1').offsetTop;
+        x= x -step;
+        document.getElementById('i1').style.top= x + "px";
+        break;
+        
+        case "left":
+        var y=document.getElementById('i1').offsetLeft;
+        y= y - step;
+        document.getElementById('i1').style.left= y + "px";
+        break;
+        
+        case "right":
+        var y=document.getElementById('i1').offsetLeft;
+        y= y + step;
+        document.getElementById('i1').style.left= y + "px";
+        break;
+        }
+        }
+        //-->
+        </script>
+</body>
+</html>
